@@ -617,7 +617,7 @@ def analyze_fft_evolution(PX, PY, step, plot=False):
 # --- Utility Functions ---
 
 def load_stock_data(file_name):
-    path = f"C:/q/dash/sample/data/stocks/{file_name}.csv"
+    path = f"data/{file_name}.csv"
     try:
         df = pd.read_csv(path)
         print(f"CSV file {file_name} loaded successfully.")
